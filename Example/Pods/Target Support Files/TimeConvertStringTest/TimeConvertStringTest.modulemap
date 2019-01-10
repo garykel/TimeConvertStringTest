@@ -1,0 +1,6 @@
+framework module TimeConvertStringTest {
+  umbrella header "TimeConvertStringTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

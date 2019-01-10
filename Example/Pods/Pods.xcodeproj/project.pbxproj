@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3931D3BCE082B8F12BBF1371DCD3203E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3B7CE1BA9555F7A7C8AA48B5FCC0A285 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		3BE53D3C45D1CCC1886EBBC9F3E01CE3 /* Pods-TimeConvertStringTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16250115E0C6C2857EBBDC172CDD54A1 /* Pods-TimeConvertStringTest_Tests-dummy.m */; };
+		4A039E9EA4B9F8B505D4167DE2965625 /* Pods-TimeConvertStringTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C57A8901401FCE41A85392A0145613 /* Pods-TimeConvertStringTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E15CCB7B39D5015B777765DF578C43F /* TimeConvertStringTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 799B34FF3C54EB72622FEFFEF0534842 /* TimeConvertStringTest-dummy.m */; };
+		634B81757C3E6D17611FC55ACCE7C20A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E3D3E27D6DF3B638112E2931725B85 /* ReplaceMe.m */; };
+		6F458B9846D7E95E06B408EFA4A32BE5 /* Pods-TimeConvertStringTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8A52F9B5A0AA4103A58A5E90F51A91C /* Pods-TimeConvertStringTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C43CAEEBA3A7EABEDCDCFB3733BC25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		7F3AD4276E57121517D52639C7AFA73E /* TimeConvertStringTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3988FC3B7C0A25C958DD2F5181168A40 /* TimeConvertStringTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D710510280DB1EFD67BBC5E54F319AEF /* Pods-TimeConvertStringTest_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9771CBBAF33A17418920A62394D31323 /* Pods-TimeConvertStringTest_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78080A93C6AC37B57AAA7BDD4A36B790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DC1097F2DCBBD14CF23E3AE17A7BA5A;
+			remoteInfo = TimeConvertStringTest;
+		};
+		D4ACCB39B6F729CD9E9534023DD6B68A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBBD81FCF9E66BFA97B07C3E2EBAF205;
+			remoteInfo = "Pods-TimeConvertStringTest_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0381743C472861677BE6A3844D5E78E4 /* Pods-TimeConvertStringTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeConvertStringTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		042D6076E351E8F4C67E82D963D1FFFA /* Pods-TimeConvertStringTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeConvertStringTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04586DC4B35804BA472DF491D920E1B5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		060AB054665F626EF6AFCF5AABAED2F5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		069D0E22F125F05513574386B39F3ECA /* TimeConvertStringTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TimeConvertStringTest.modulemap; sourceTree = "<group>"; };
+		06E25B869E0034B7EDAE07D55AB7CA7B /* Pods_TimeConvertStringTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeConvertStringTest_Tests.framework; path = "Pods-TimeConvertStringTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		107EB022E9197EF8E98630CB198A934B /* TimeConvertStringTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TimeConvertStringTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16250115E0C6C2857EBBDC172CDD54A1 /* Pods-TimeConvertStringTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeConvertStringTest_Tests-dummy.m"; sourceTree = "<group>"; };
+		18667FC4AB0D5335397FD17F37D6C1C1 /* Pods-TimeConvertStringTest_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeConvertStringTest_Example-resources.sh"; sourceTree = "<group>"; };
+		29C57A8901401FCE41A85392A0145613 /* Pods-TimeConvertStringTest_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeConvertStringTest_Example-umbrella.h"; sourceTree = "<group>"; };
+		2DF2B5A020FA7B76DD977D30FCD93D93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3020FAA4D60682E2AD6D79BE8F4F7BFD /* Pods-TimeConvertStringTest_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeConvertStringTest_Tests-resources.sh"; sourceTree = "<group>"; };
+		324CCBC86D5D5FF6FA91A1DB2B9A7F0B /* Pods-TimeConvertStringTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeConvertStringTest_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3988FC3B7C0A25C958DD2F5181168A40 /* TimeConvertStringTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeConvertStringTest-umbrella.h"; sourceTree = "<group>"; };
+		46B0225690696B46E3189A214915B5D5 /* Pods-TimeConvertStringTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TimeConvertStringTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		52F6390EE78BE1260277706C3CBC1FBB /* Pods-TimeConvertStringTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimeConvertStringTest_Example.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		631B5E5C9778939F602F41FC4EC3100B /* Pods-TimeConvertStringTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TimeConvertStringTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		702409608C81F8F72D39586DAEF56196 /* TimeConvertStringTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimeConvertStringTest.framework; path = TimeConvertStringTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		787B9AC4DD86C52E1DFCE94B67E062D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799B34FF3C54EB72622FEFFEF0534842 /* TimeConvertStringTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimeConvertStringTest-dummy.m"; sourceTree = "<group>"; };
+		7A0DE3DF742403CB132CCFB9FB9B96B7 /* Pods-TimeConvertStringTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeConvertStringTest_Example.release.xcconfig"; sourceTree = "<group>"; };
+		817911780CA211001570B4E040D34490 /* Pods-TimeConvertStringTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeConvertStringTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		84B44933B7D5285E23D4D3BB973C78EC /* Pods-TimeConvertStringTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeConvertStringTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9435E061E73F4B4FEF89D94805B55E9D /* TimeConvertStringTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimeConvertStringTest.xcconfig; sourceTree = "<group>"; };
+		9771CBBAF33A17418920A62394D31323 /* Pods-TimeConvertStringTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TimeConvertStringTest_Example-dummy.m"; sourceTree = "<group>"; };
+		A8A52F9B5A0AA4103A58A5E90F51A91C /* Pods-TimeConvertStringTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TimeConvertStringTest_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B28E9DCEF09BAC4D4F8242878332E3EA /* Pods-TimeConvertStringTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TimeConvertStringTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C204669268F18B03FB764BCBCF368B7C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5E3F1EAA651C6A412A46A1FE94C98ED /* Pods_TimeConvertStringTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TimeConvertStringTest_Example.framework; path = "Pods-TimeConvertStringTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE972C00955C0B01553F891653BC1AA4 /* TimeConvertStringTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimeConvertStringTest-prefix.pch"; sourceTree = "<group>"; };
+		E1E3D3E27D6DF3B638112E2931725B85 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TimeConvertStringTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		E413B8D20E8D4C5B332CFE1906CB30A8 /* Pods-TimeConvertStringTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TimeConvertStringTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F1D2C8DEA3B01890B70B15D64D0C4564 /* Pods-TimeConvertStringTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TimeConvertStringTest_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BD9ED12A6913198C9DE3B12187C67AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7CE1BA9555F7A7C8AA48B5FCC0A285 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90AEA67885E066DF32EF6E788E89CFD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3931D3BCE082B8F12BBF1371DCD3203E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D834BBC96B59985ABA3DCC8FDD8FD5C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C43CAEEBA3A7EABEDCDCFB3733BC25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC1956EC38F4F19FE2DEFAF57DE2162 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				04586DC4B35804BA472DF491D920E1B5 /* Info.plist */,
+				069D0E22F125F05513574386B39F3ECA /* TimeConvertStringTest.modulemap */,
+				9435E061E73F4B4FEF89D94805B55E9D /* TimeConvertStringTest.xcconfig */,
+				799B34FF3C54EB72622FEFFEF0534842 /* TimeConvertStringTest-dummy.m */,
+				CE972C00955C0B01553F891653BC1AA4 /* TimeConvertStringTest-prefix.pch */,
+				3988FC3B7C0A25C958DD2F5181168A40 /* TimeConvertStringTest-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TimeConvertStringTest";
+			sourceTree = "<group>";
+		};
+		17AC6BB2671A43C8BC295A3D563B4773 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7D963E5D67CE98C66B670403CE80382 /* TimeConvertStringTest */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		425167813C2FC6562E7DCC1F1892F7A3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8CDE7ABF984E8E4AA5C751B2E4F63D0 /* Pods-TimeConvertStringTest_Example */,
+				96E5026C4F8E06CAF1E274DFDFCFC01D /* Pods-TimeConvertStringTest_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		502298482F4EBAE70679C3E1687D280D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				060AB054665F626EF6AFCF5AABAED2F5 /* LICENSE */,
+				2DF2B5A020FA7B76DD977D30FCD93D93 /* README.md */,
+				107EB022E9197EF8E98630CB198A934B /* TimeConvertStringTest.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				17AC6BB2671A43C8BC295A3D563B4773 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				895C3F8253BBEA7C6B3216FD12E083A3 /* Products */,
+				425167813C2FC6562E7DCC1F1892F7A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		895C3F8253BBEA7C6B3216FD12E083A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5E3F1EAA651C6A412A46A1FE94C98ED /* Pods_TimeConvertStringTest_Example.framework */,
+				06E25B869E0034B7EDAE07D55AB7CA7B /* Pods_TimeConvertStringTest_Tests.framework */,
+				702409608C81F8F72D39586DAEF56196 /* TimeConvertStringTest.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96E5026C4F8E06CAF1E274DFDFCFC01D /* Pods-TimeConvertStringTest_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C204669268F18B03FB764BCBCF368B7C /* Info.plist */,
+				F1D2C8DEA3B01890B70B15D64D0C4564 /* Pods-TimeConvertStringTest_Tests.modulemap */,
+				631B5E5C9778939F602F41FC4EC3100B /* Pods-TimeConvertStringTest_Tests-acknowledgements.markdown */,
+				B28E9DCEF09BAC4D4F8242878332E3EA /* Pods-TimeConvertStringTest_Tests-acknowledgements.plist */,
+				16250115E0C6C2857EBBDC172CDD54A1 /* Pods-TimeConvertStringTest_Tests-dummy.m */,
+				46B0225690696B46E3189A214915B5D5 /* Pods-TimeConvertStringTest_Tests-frameworks.sh */,
+				3020FAA4D60682E2AD6D79BE8F4F7BFD /* Pods-TimeConvertStringTest_Tests-resources.sh */,
+				A8A52F9B5A0AA4103A58A5E90F51A91C /* Pods-TimeConvertStringTest_Tests-umbrella.h */,
+				817911780CA211001570B4E040D34490 /* Pods-TimeConvertStringTest_Tests.debug.xcconfig */,
+				E413B8D20E8D4C5B332CFE1906CB30A8 /* Pods-TimeConvertStringTest_Tests.release.xcconfig */,
+			);
+			name = "Pods-TimeConvertStringTest_Tests";
+			path = "Target Support Files/Pods-TimeConvertStringTest_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8CDE7ABF984E8E4AA5C751B2E4F63D0 /* Pods-TimeConvertStringTest_Example */ = {
+			isa = PBXGroup;
+			children = (
+				787B9AC4DD86C52E1DFCE94B67E062D7 /* Info.plist */,
+				52F6390EE78BE1260277706C3CBC1FBB /* Pods-TimeConvertStringTest_Example.modulemap */,
+				042D6076E351E8F4C67E82D963D1FFFA /* Pods-TimeConvertStringTest_Example-acknowledgements.markdown */,
+				84B44933B7D5285E23D4D3BB973C78EC /* Pods-TimeConvertStringTest_Example-acknowledgements.plist */,
+				9771CBBAF33A17418920A62394D31323 /* Pods-TimeConvertStringTest_Example-dummy.m */,
+				324CCBC86D5D5FF6FA91A1DB2B9A7F0B /* Pods-TimeConvertStringTest_Example-frameworks.sh */,
+				18667FC4AB0D5335397FD17F37D6C1C1 /* Pods-TimeConvertStringTest_Example-resources.sh */,
+				29C57A8901401FCE41A85392A0145613 /* Pods-TimeConvertStringTest_Example-umbrella.h */,
+				0381743C472861677BE6A3844D5E78E4 /* Pods-TimeConvertStringTest_Example.debug.xcconfig */,
+				7A0DE3DF742403CB132CCFB9FB9B96B7 /* Pods-TimeConvertStringTest_Example.release.xcconfig */,
+			);
+			name = "Pods-TimeConvertStringTest_Example";
+			path = "Target Support Files/Pods-TimeConvertStringTest_Example";
+			sourceTree = "<group>";
+		};
+		F7D963E5D67CE98C66B670403CE80382 /* TimeConvertStringTest */ = {
+			isa = PBXGroup;
+			children = (
+				E1E3D3E27D6DF3B638112E2931725B85 /* ReplaceMe.m */,
+				502298482F4EBAE70679C3E1687D280D /* Pod */,
+				0FC1956EC38F4F19FE2DEFAF57DE2162 /* Support Files */,
+			);
+			name = TimeConvertStringTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3CDEBFDA1F57DB00CBCBC405693F10E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3AD4276E57121517D52639C7AFA73E /* TimeConvertStringTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC581ABC8DB8AC0D257C574256440BF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A039E9EA4B9F8B505D4167DE2965625 /* Pods-TimeConvertStringTest_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBF9522BAFAEDD8629677353AD18B8FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F458B9846D7E95E06B408EFA4A32BE5 /* Pods-TimeConvertStringTest_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DC1097F2DCBBD14CF23E3AE17A7BA5A /* TimeConvertStringTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF4B2415D0A20A2A0412B0C56790BC5 /* Build configuration list for PBXNativeTarget "TimeConvertStringTest" */;
+			buildPhases = (
+				9052E0A9901F8E16531FE55F8D77C611 /* Sources */,
+				D834BBC96B59985ABA3DCC8FDD8FD5C7 /* Frameworks */,
+				3CDEBFDA1F57DB00CBCBC405693F10E4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeConvertStringTest;
+			productName = TimeConvertStringTest;
+			productReference = 702409608C81F8F72D39586DAEF56196 /* TimeConvertStringTest.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A49A4168AEDA40A952E0294359B78FB /* Pods-TimeConvertStringTest_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E56EA79843E6C674BCBD14C27C7D7F83 /* Build configuration list for PBXNativeTarget "Pods-TimeConvertStringTest_Tests" */;
+			buildPhases = (
+				A85E1DC58775277187B7CA1182CD9F9F /* Sources */,
+				8BD9ED12A6913198C9DE3B12187C67AD /* Frameworks */,
+				FBF9522BAFAEDD8629677353AD18B8FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E12D83E3ACD81BE5AB7F80B1B37A91D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-TimeConvertStringTest_Tests";
+			productName = "Pods-TimeConvertStringTest_Tests";
+			productReference = 06E25B869E0034B7EDAE07D55AB7CA7B /* Pods_TimeConvertStringTest_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BBBD81FCF9E66BFA97B07C3E2EBAF205 /* Pods-TimeConvertStringTest_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2BCA8AF3810B627B3FA35A2E15E7FAA /* Build configuration list for PBXNativeTarget "Pods-TimeConvertStringTest_Example" */;
+			buildPhases = (
+				A3DA4F4926EA3BCA62D8FE3E08573AC1 /* Sources */,
+				90AEA67885E066DF32EF6E788E89CFD7 /* Frameworks */,
+				EC581ABC8DB8AC0D257C574256440BF2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC07FC4FA6B07F1A4FD3DCF08EDE3EBB /* PBXTargetDependency */,
+			);
+			name = "Pods-TimeConvertStringTest_Example";
+			productName = "Pods-TimeConvertStringTest_Example";
+			productReference = C5E3F1EAA651C6A412A46A1FE94C98ED /* Pods_TimeConvertStringTest_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 895C3F8253BBEA7C6B3216FD12E083A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBBD81FCF9E66BFA97B07C3E2EBAF205 /* Pods-TimeConvertStringTest_Example */,
+				8A49A4168AEDA40A952E0294359B78FB /* Pods-TimeConvertStringTest_Tests */,
+				0DC1097F2DCBBD14CF23E3AE17A7BA5A /* TimeConvertStringTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9052E0A9901F8E16531FE55F8D77C611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				634B81757C3E6D17611FC55ACCE7C20A /* ReplaceMe.m in Sources */,
+				5E15CCB7B39D5015B777765DF578C43F /* TimeConvertStringTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DA4F4926EA3BCA62D8FE3E08573AC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D710510280DB1EFD67BBC5E54F319AEF /* Pods-TimeConvertStringTest_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85E1DC58775277187B7CA1182CD9F9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BE53D3C45D1CCC1886EBBC9F3E01CE3 /* Pods-TimeConvertStringTest_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC07FC4FA6B07F1A4FD3DCF08EDE3EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimeConvertStringTest;
+			target = 0DC1097F2DCBBD14CF23E3AE17A7BA5A /* TimeConvertStringTest */;
+			targetProxy = 78080A93C6AC37B57AAA7BDD4A36B790 /* PBXContainerItemProxy */;
+		};
+		E12D83E3ACD81BE5AB7F80B1B37A91D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TimeConvertStringTest_Example";
+			target = BBBD81FCF9E66BFA97B07C3E2EBAF205 /* Pods-TimeConvertStringTest_Example */;
+			targetProxy = D4ACCB39B6F729CD9E9534023DD6B68A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		057B5810D5EAB080CEAF456FEDDFDB7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9435E061E73F4B4FEF89D94805B55E9D /* TimeConvertStringTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimeConvertStringTest/TimeConvertStringTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimeConvertStringTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimeConvertStringTest/TimeConvertStringTest.modulemap";
+				PRODUCT_MODULE_NAME = TimeConvertStringTest;
+				PRODUCT_NAME = TimeConvertStringTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0F6E60FDCE30F6317AA13B451DDFB0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817911780CA211001570B4E040D34490 /* Pods-TimeConvertStringTest_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeConvertStringTest_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeConvertStringTest_Tests/Pods-TimeConvertStringTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		516AA6ACCAF89E325CD450304325332C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E413B8D20E8D4C5B332CFE1906CB30A8 /* Pods-TimeConvertStringTest_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeConvertStringTest_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeConvertStringTest_Tests/Pods-TimeConvertStringTest_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89385818D97A15905A0F543F9237191B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0381743C472861677BE6A3844D5E78E4 /* Pods-TimeConvertStringTest_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeConvertStringTest_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeConvertStringTest_Example/Pods-TimeConvertStringTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C7C14D8858F1723AE9BBD6F9B69BF47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A0DE3DF742403CB132CCFB9FB9B96B7 /* Pods-TimeConvertStringTest_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TimeConvertStringTest_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TimeConvertStringTest_Example/Pods-TimeConvertStringTest_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A688BCA894FC9086D1A9373344D95C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9435E061E73F4B4FEF89D94805B55E9D /* TimeConvertStringTest.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimeConvertStringTest/TimeConvertStringTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimeConvertStringTest/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TimeConvertStringTest/TimeConvertStringTest.modulemap";
+				PRODUCT_MODULE_NAME = TimeConvertStringTest;
+				PRODUCT_NAME = TimeConvertStringTest;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF4B2415D0A20A2A0412B0C56790BC5 /* Build configuration list for PBXNativeTarget "TimeConvertStringTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A688BCA894FC9086D1A9373344D95C84 /* Debug */,
+				057B5810D5EAB080CEAF456FEDDFDB7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2BCA8AF3810B627B3FA35A2E15E7FAA /* Build configuration list for PBXNativeTarget "Pods-TimeConvertStringTest_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89385818D97A15905A0F543F9237191B /* Debug */,
+				9C7C14D8858F1723AE9BBD6F9B69BF47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E56EA79843E6C674BCBD14C27C7D7F83 /* Build configuration list for PBXNativeTarget "Pods-TimeConvertStringTest_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F6E60FDCE30F6317AA13B451DDFB0B8 /* Debug */,
+				516AA6ACCAF89E325CD450304325332C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

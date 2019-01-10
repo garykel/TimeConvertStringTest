@@ -1,0 +1,22 @@
+{
+  "name": "TimeConvertStringTest",
+  "version": "0.1.0",
+  "summary": "将时间日期按不同的格式转换为字符串",
+  "description": "TODO: Add long description of the pod here.将时间日期按不同的格式转换为字符串",
+  "homepage": "https://github.com/garykel/TimeConvertStringTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "346900887@qq.com": "gary.chen.kel@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/garykel/TimeConvertStringTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TimeConvertStringTest/Classes/**/*"
+}

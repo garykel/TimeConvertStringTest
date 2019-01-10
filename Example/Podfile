@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TimeConvertStringTest_Example' do
+  pod 'TimeConvertStringTest', :path => '../'
+
+  target 'TimeConvertStringTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

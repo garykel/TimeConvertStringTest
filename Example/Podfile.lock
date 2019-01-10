@@ -1,0 +1,16 @@
+PODS:
+  - TimeConvertStringTest (0.1.0)
+
+DEPENDENCIES:
+  - TimeConvertStringTest (from `../`)
+
+EXTERNAL SOURCES:
+  TimeConvertStringTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TimeConvertStringTest: 1ed626dda5bda34af010ddb1660d1acafb5ea5bc
+
+PODFILE CHECKSUM: 63db097530eb9e88c07d512fbb7e7b6da744a713
+
+COCOAPODS: 1.5.3
